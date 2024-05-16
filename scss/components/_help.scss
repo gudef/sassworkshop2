@@ -1,0 +1,32 @@
+.help{
+    padding: 5rem 0;
+
+    .help-title{
+
+        text-align: center;
+
+        h1{
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+
+    .help-shelter{
+        display: flex;
+        margin-top: 2rem;
+        text-align: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .help-items{
+
+            i{
+                font-size: 3rem;
+                color: $primary-color;
+            }
+            p{
+                margin-top: 1rem;
+            }
+        }
+    }
+}

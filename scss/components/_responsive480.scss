@@ -1,0 +1,11 @@
+@media screen and(max-width: 480px){
+
+    .footer-container{
+        flex-direction: column !important;
+
+        .footer-items{
+            margin-top: 3rem;
+        }
+    }
+
+}
